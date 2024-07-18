@@ -1,0 +1,220 @@
+The system is: Linux - 5.15.0-86-generic - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/MESA15140/mesasdk/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/user/HS400/ad02184/com1031/weeks-5-6/week06/build/pioasm/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /user/HS400/ad02184/com1031/weeks-5-6/week06/build/pioasm/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b3c0e/fast && gmake[3]: Entering directory '/user/HS400/ad02184/com1031/weeks-5-6/week06/build/pioasm/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_b3c0e.dir/build.make CMakeFiles/cmTC_b3c0e.dir/build
+gmake[4]: Entering directory '/user/HS400/ad02184/com1031/weeks-5-6/week06/build/pioasm/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b3c0e.dir/CMakeCXXCompilerABI.cpp.o
+/opt/MESA15140/mesasdk/bin/c++   -v -o CMakeFiles/cmTC_b3c0e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/opt/MESA15140/mesasdk/bin/c++.exec
+Target: x86_64-pc-linux-gnu
+Configured with: /home/user/sdk2-tmp/build/gcc/configure CC= --build=x86_64-pc-linux-gnu --prefix=/home/user/sdk2-tmp/mesasdk --with-gmp=/home/user/sdk2-tmp/mesasdk --with-mpfr=/home/user/sdk2-tmp/mesasdk --with-mpc=/home/user/sdk2-tmp/mesasdk --enable-languages=c,c++,fortran --disable-multilib --disable-nls --disable-libsanitizer --enable-clocale=generic
+Thread model: posix
+gcc version 9.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-I' '/usr/include/x86_64-linux-gnu' '-v' '-o' 'CMakeFiles/cmTC_b3c0e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /opt/MESA15140/mesasdk/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/cc1plus -quiet -v -I /usr/include/x86_64-linux-gnu -iprefix /opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/ -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_b3c0e.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccJ3xsGm.s
+GNU C++14 (GCC) version 9.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 9.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../x86_64-pc-linux-gnu/include"
+ignoring duplicate directory "/opt/MESA15140/mesasdk/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0"
+ignoring duplicate directory "/opt/MESA15140/mesasdk/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu"
+ignoring duplicate directory "/opt/MESA15140/mesasdk/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward"
+ignoring duplicate directory "/opt/MESA15140/mesasdk/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/9.2.0/include"
+ignoring duplicate directory "/opt/MESA15140/mesasdk/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed"
+ignoring nonexistent directory "/opt/MESA15140/mesasdk/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/x86_64-linux-gnu
+ /opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0
+ /opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu
+ /opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward
+ /opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/include
+ /opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed
+ /usr/local/include
+ /opt/MESA15140/mesasdk/bin/../lib/gcc/../../include
+ /usr/include
+End of search list.
+GNU C++14 (GCC) version 9.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 9.2.0, GMP version 6.1.2, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: de05b45fc4bad894694caba020f80210
+COLLECT_GCC_OPTIONS='-I' '/usr/include/x86_64-linux-gnu' '-v' '-o' 'CMakeFiles/cmTC_b3c0e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v -I /usr/include/x86_64-linux-gnu --64 -o CMakeFiles/cmTC_b3c0e.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccJ3xsGm.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/opt/MESA15140/mesasdk/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/:/opt/MESA15140/mesasdk/bin/../libexec/gcc/
+LIBRARY_PATH=/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/opt/MESA15140/mesasdk/bin/../lib/gcc/:/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:./:/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-I' '/usr/include/x86_64-linux-gnu' '-v' '-o' 'CMakeFiles/cmTC_b3c0e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_b3c0e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3c0e.dir/link.txt --verbose=1
+/opt/MESA15140/mesasdk/bin/c++  -v CMakeFiles/cmTC_b3c0e.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b3c0e 
+Using built-in specs.
+COLLECT_GCC=/opt/MESA15140/mesasdk/bin/c++.exec
+COLLECT_LTO_WRAPPER=/opt/MESA15140/mesasdk/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: /home/user/sdk2-tmp/build/gcc/configure CC= --build=x86_64-pc-linux-gnu --prefix=/home/user/sdk2-tmp/mesasdk --with-gmp=/home/user/sdk2-tmp/mesasdk --with-mpfr=/home/user/sdk2-tmp/mesasdk --with-mpc=/home/user/sdk2-tmp/mesasdk --enable-languages=c,c++,fortran --disable-multilib --disable-nls --disable-libsanitizer --enable-clocale=generic
+Thread model: posix
+gcc version 9.2.0 (GCC) 
+COMPILER_PATH=/opt/MESA15140/mesasdk/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/:/opt/MESA15140/mesasdk/bin/../libexec/gcc/
+LIBRARY_PATH=/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/opt/MESA15140/mesasdk/bin/../lib/gcc/:/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:./:/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-I' '/usr/include/x86_64-linux-gnu' '-v' '-o' 'cmTC_b3c0e' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /opt/MESA15140/mesasdk/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/collect2 --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b3c0e /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbegin.o -L/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0 -L/opt/MESA15140/mesasdk/bin/../lib/gcc -L/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L. -L/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../.. -rpath /opt/MESA15140/mesasdk/lib -rpath /opt/MESA15140/mesasdk/lib64 -rpath /opt/MESA15140/mesasdk/math-slots/default/lib CMakeFiles/cmTC_b3c0e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-I' '/usr/include/x86_64-linux-gnu' '-v' '-o' 'cmTC_b3c0e' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[4]: Leaving directory '/user/HS400/ad02184/com1031/weeks-5-6/week06/build/pioasm/CMakeFiles/CMakeTmp'
+gmake[3]: Leaving directory '/user/HS400/ad02184/com1031/weeks-5-6/week06/build/pioasm/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0]
+    add: [/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu]
+    add: [/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward]
+    add: [/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/include]
+    add: [/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed]
+    add: [/usr/local/include]
+    add: [/opt/MESA15140/mesasdk/bin/../lib/gcc/../../include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0] ==> [/opt/MESA15140/mesasdk/include/c++/9.2.0]
+  collapse include dir [/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu] ==> [/opt/MESA15140/mesasdk/include/c++/9.2.0/x86_64-pc-linux-gnu]
+  collapse include dir [/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward] ==> [/opt/MESA15140/mesasdk/include/c++/9.2.0/backward]
+  collapse include dir [/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/include] ==> [/opt/MESA15140/mesasdk/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include]
+  collapse include dir [/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed] ==> [/opt/MESA15140/mesasdk/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/opt/MESA15140/mesasdk/bin/../lib/gcc/../../include] ==> [/opt/MESA15140/mesasdk/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/x86_64-linux-gnu;/opt/MESA15140/mesasdk/include/c++/9.2.0;/opt/MESA15140/mesasdk/include/c++/9.2.0/x86_64-pc-linux-gnu;/opt/MESA15140/mesasdk/include/c++/9.2.0/backward;/opt/MESA15140/mesasdk/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include;/opt/MESA15140/mesasdk/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed;/usr/local/include;/opt/MESA15140/mesasdk/include;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /user/HS400/ad02184/com1031/weeks-5-6/week06/build/pioasm/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b3c0e/fast && gmake[3]: Entering directory '/user/HS400/ad02184/com1031/weeks-5-6/week06/build/pioasm/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_b3c0e.dir/build.make CMakeFiles/cmTC_b3c0e.dir/build]
+  ignore line: [gmake[4]: Entering directory '/user/HS400/ad02184/com1031/weeks-5-6/week06/build/pioasm/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_b3c0e.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/MESA15140/mesasdk/bin/c++   -v -o CMakeFiles/cmTC_b3c0e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/MESA15140/mesasdk/bin/c++.exec]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /home/user/sdk2-tmp/build/gcc/configure CC= --build=x86_64-pc-linux-gnu --prefix=/home/user/sdk2-tmp/mesasdk --with-gmp=/home/user/sdk2-tmp/mesasdk --with-mpfr=/home/user/sdk2-tmp/mesasdk --with-mpc=/home/user/sdk2-tmp/mesasdk --enable-languages=c c++ fortran --disable-multilib --disable-nls --disable-libsanitizer --enable-clocale=generic]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-I' '/usr/include/x86_64-linux-gnu' '-v' '-o' 'CMakeFiles/cmTC_b3c0e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /opt/MESA15140/mesasdk/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/cc1plus -quiet -v -I /usr/include/x86_64-linux-gnu -iprefix /opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/ -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_b3c0e.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccJ3xsGm.s]
+  ignore line: [GNU C++14 (GCC) version 9.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.2.0  GMP version 6.1.2  MPFR version 4.0.2  MPC version 1.1.0  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [ignoring duplicate directory "/opt/MESA15140/mesasdk/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0"]
+  ignore line: [ignoring duplicate directory "/opt/MESA15140/mesasdk/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu"]
+  ignore line: [ignoring duplicate directory "/opt/MESA15140/mesasdk/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward"]
+  ignore line: [ignoring duplicate directory "/opt/MESA15140/mesasdk/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/9.2.0/include"]
+  ignore line: [ignoring duplicate directory "/opt/MESA15140/mesasdk/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/opt/MESA15140/mesasdk/bin/../lib/gcc/../../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0]
+  ignore line: [ /opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu]
+  ignore line: [ /opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward]
+  ignore line: [ /opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/include]
+  ignore line: [ /opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /opt/MESA15140/mesasdk/bin/../lib/gcc/../../include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GCC) version 9.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.2.0  GMP version 6.1.2  MPFR version 4.0.2  MPC version 1.1.0  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: de05b45fc4bad894694caba020f80210]
+  ignore line: [COLLECT_GCC_OPTIONS='-I' '/usr/include/x86_64-linux-gnu' '-v' '-o' 'CMakeFiles/cmTC_b3c0e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v -I /usr/include/x86_64-linux-gnu --64 -o CMakeFiles/cmTC_b3c0e.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccJ3xsGm.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/opt/MESA15140/mesasdk/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/:/opt/MESA15140/mesasdk/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/opt/MESA15140/mesasdk/bin/../lib/gcc/:/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:./:/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-I' '/usr/include/x86_64-linux-gnu' '-v' '-o' 'CMakeFiles/cmTC_b3c0e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_b3c0e]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3c0e.dir/link.txt --verbose=1]
+  ignore line: [/opt/MESA15140/mesasdk/bin/c++  -v CMakeFiles/cmTC_b3c0e.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b3c0e ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/MESA15140/mesasdk/bin/c++.exec]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/MESA15140/mesasdk/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: /home/user/sdk2-tmp/build/gcc/configure CC= --build=x86_64-pc-linux-gnu --prefix=/home/user/sdk2-tmp/mesasdk --with-gmp=/home/user/sdk2-tmp/mesasdk --with-mpfr=/home/user/sdk2-tmp/mesasdk --with-mpc=/home/user/sdk2-tmp/mesasdk --enable-languages=c c++ fortran --disable-multilib --disable-nls --disable-libsanitizer --enable-clocale=generic]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/MESA15140/mesasdk/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/:/opt/MESA15140/mesasdk/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/:/opt/MESA15140/mesasdk/bin/../lib/gcc/:/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:./:/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-I' '/usr/include/x86_64-linux-gnu' '-v' '-o' 'cmTC_b3c0e' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /opt/MESA15140/mesasdk/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/collect2 --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_b3c0e /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbegin.o -L/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0 -L/opt/MESA15140/mesasdk/bin/../lib/gcc -L/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L. -L/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../.. -rpath /opt/MESA15140/mesasdk/lib -rpath /opt/MESA15140/mesasdk/lib64 -rpath /opt/MESA15140/mesasdk/math-slots/default/lib CMakeFiles/cmTC_b3c0e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o]
+    arg [/opt/MESA15140/mesasdk/bin/../libexec/gcc/x86_64-pc-linux-gnu/9.2.0/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b3c0e] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crt1.o] ==> obj [/usr/lib/x86_64-linux-gnu/crt1.o]
+    arg [/usr/lib/x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/x86_64-linux-gnu/crti.o]
+    arg [/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbegin.o] ==> obj [/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbegin.o]
+    arg [-L/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0] ==> dir [/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0]
+    arg [-L/opt/MESA15140/mesasdk/bin/../lib/gcc] ==> dir [/opt/MESA15140/mesasdk/bin/../lib/gcc]
+    arg [-L/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64] ==> dir [/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L.] ==> ignore
+    arg [-L/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../..] ==> dir [/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../..]
+    arg [-rpath] ==> ignore
+    arg [/opt/MESA15140/mesasdk/lib] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/opt/MESA15140/mesasdk/lib64] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/opt/MESA15140/mesasdk/math-slots/default/lib] ==> ignore
+    arg [CMakeFiles/cmTC_b3c0e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtend.o] ==> obj [/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtend.o]
+    arg [/usr/lib/x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse obj [/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbegin.o] ==> [/opt/MESA15140/mesasdk/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbegin.o]
+  collapse obj [/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtend.o] ==> [/opt/MESA15140/mesasdk/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtend.o]
+  collapse library dir [/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0] ==> [/opt/MESA15140/mesasdk/lib/gcc/x86_64-pc-linux-gnu/9.2.0]
+  collapse library dir [/opt/MESA15140/mesasdk/bin/../lib/gcc] ==> [/opt/MESA15140/mesasdk/lib/gcc]
+  collapse library dir [/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../lib64] ==> [/opt/MESA15140/mesasdk/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/opt/MESA15140/mesasdk/bin/../lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../..] ==> [/opt/MESA15140/mesasdk/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/crt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/opt/MESA15140/mesasdk/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtbegin.o;/opt/MESA15140/mesasdk/lib/gcc/x86_64-pc-linux-gnu/9.2.0/crtend.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/opt/MESA15140/mesasdk/lib/gcc/x86_64-pc-linux-gnu/9.2.0;/opt/MESA15140/mesasdk/lib/gcc;/opt/MESA15140/mesasdk/lib64;/lib64;/usr/lib64;/usr/lib/x86_64-linux-gnu;/opt/MESA15140/mesasdk/lib]
+  implicit fwks: []
+
+
